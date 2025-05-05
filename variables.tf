@@ -29,12 +29,3 @@ variable "spacelift_api_key_endpoint" {
   description = "Full URL of the Spacelift API endpoint to use, eg. https://demo.app.spacelift.io"
 }
 
-variable "worker_pool_security_groups" {
-  description = "The security groups to be used for the worker pool"
-  type        = list(string)
-}
-
-variable "worker_pool_subnets" {
-  description = "The subnets to be used for the worker pool"
-  type        = list(string)
-}
