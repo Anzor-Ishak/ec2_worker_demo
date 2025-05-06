@@ -31,5 +31,5 @@ module "my_workerpool" {
 }
 
 #testing private worker pool 
-#add a worker
+#add a worker2
 
