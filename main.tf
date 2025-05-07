@@ -27,6 +27,7 @@ module "my_workerpool" {
   worker_pool_id    = var.worker_pool_id
   security_groups   = var.worker_pool_security_groups
   vpc_subnets       = var.worker_pool_subnets
+  ec2_instance_type = var.ec2_instance_type
 }
 
 #testing private worker pool 

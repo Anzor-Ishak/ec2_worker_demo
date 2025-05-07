@@ -38,4 +38,9 @@ variable "worker_pool_subnets" {
   description = "The subnets to be used for the worker pool"
   type        = list(string)
 }
-#test again
+
+variable "ec2_instance_type" {
+  type        = string
+  description = "EC2 instance type for the workers. If an arm64-based AMI is used, this must be an arm64-based instance type."
+  default     = "t3.medium"
+}
