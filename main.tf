@@ -31,4 +31,4 @@ module "my_workerpool" {
 }
 
 #testing private worker pool 
-#test w/ danielle 
+#test with new IAG setup
