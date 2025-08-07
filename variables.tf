@@ -44,3 +44,13 @@ variable "ec2_instance_type" {
   description = "EC2 instance type for the workers. If an arm64-based AMI is used, this must be an arm64-based instance type."
   default     = "t3.medium"
 }
+
+variable "SPACELIFT_PRIVATEVCS_MAPPING_BASE_ENDPOINT_0" {
+  type        = string
+  description = "base endpoint"
+}
+
+variable "SPACELIFT_PRIVATEVCS_MAPPING_NAME_0" {
+  type        = string
+  description = "mapping name"
+}
