@@ -29,5 +29,5 @@ module "my_workerpool" {
   vpc_subnets       = var.worker_pool_subnets
   ec2_instance_type = var.ec2_instance_type
   SPACELIFT_PRIVATEVCS_MAPPING_NAME_0 = bbdc-test-pool
-  SPACELIFT_PRIVATEVCS_MAPPING_BASE_ENDPOINT_0 = http://localhost:7990
+  SPACELIFT_PRIVATEVCS_MAPPING_BASE_ENDPOINT_0 = "http://localhost:7990"
 }
