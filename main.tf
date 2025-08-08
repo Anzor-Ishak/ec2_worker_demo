@@ -23,7 +23,7 @@ module "my_workerpool" {
 
    # Private VCS mapping so the agent knows your local Bitbucket
     export SPACELIFT_PRIVATEVCS_MAPPING_NAME_0=bbdc-test-pool
-    export SPACELIFT_PRIVATEVCS_MAPPING_BASE_ENDPOINT_0="http://localhost:7990"
+    export SPACELIFT_PRIVATEVCS_MAPPING_BASE_ENDPOINT_0="https://7e8d-104-23-1-56.ngrok-free.app"
 
 
   EOF
